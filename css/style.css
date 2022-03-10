@@ -1,0 +1,157 @@
+body {
+    margin: 3rem 0 0 0;
+    position:relative;
+}
+body:after {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: '';
+  background-color: #fafafa;
+  z-index:1;
+}
+a,a:hover,a:active,a:focus {
+    text-decoration: none;
+    color:#262626;
+}
+#header-toggle.show {
+  margin-left: 220px;
+}
+#app{
+ height:calc(100vh - 3rem)
+}
+.main,.header{
+  padding: 0 1rem 0 1rem;
+}
+.main{
+  position:relative;
+  z-index:50;
+  padding-top:1.5rem;
+}
+.header {
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:solid 1px #dbdbdb;
+    padding-top:0.8rem;
+    color:#262626;
+}
+.header i,.actions i{
+  font-size: 1.8rem;
+  cursor: pointer;
+  padding: 0.3rem;
+}
+.actions i{
+  padding:0.5rem;
+}
+.hearted{
+  color:#ed4956;
+}
+.btn-primary,.btn-primary:hover,.btn-primary:active,.btn-primary:focus{
+  background-color: #0095f6c7;
+  border-color: #0095f6c7;
+}
+.input-group textarea{
+  overflow:hidden;
+  border:none;
+  min-height:50px;
+  resize:none;
+}
+.input-group textarea:focus{
+  outline:none;
+  box-shadow:none!important;
+}
+.invalid-feedback{
+  display:block;
+}
+.heart{
+  font-size:1.8em;
+}
+.btn-no,.btn-no:hover,.btn-no:active,.btn-no:focus{
+  color: #fff;
+  background-color: #0095f6c7;
+  border-color: #0095f6c7;
+}
+.opacity-50{
+  opacity:0.5;
+}
+.card-body, .post-bottom,.welcome{
+  padding:0px;
+  background-color:#fff;
+  border:solid 1px #dbdbdb;
+}
+.card-title{
+  padding:0.75rem;
+  margin-bottom:0px!important;
+}
+.card-title span{
+  margin-left:1rem;
+  font-size:1rem;
+}
+.card{
+  border:none;
+}
+.card-title img,.comment img{
+  width:2em;
+  border-radius:100px;
+}
+.card-title div, .comment div{
+  margin-top: 0.7rem;
+  color: #b3b3b3;
+  font-style: italic;
+  font-size: 0.8rem;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+.post-comment{
+  color: #0095f6c7;
+  background-color:#fff;
+  font-weight:bold;
+  border:none;
+  margin-left:-1rem;
+}
+.profile ul{
+  list-style-type:none;
+}
+.post .token{
+  float:right;
+}
+.info{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 2rem;
+  z-index: 100;
+  background: #fff;
+  width: 2rem;
+  height: 2rem;
+  padding: 0rem;
+  margin:1rem;
+}
+.info i{
+  position:absolute;
+}
+@media (max-width:450px){
+  .post .token{
+      float:none;
+      text-align:right;
+  }
+  #coins{
+    display:none;
+  }
+}
+@media (min-width:700px){
+  .post,.welcome{
+    max-width:600px;
+    margin:auto;
+  }
+}
