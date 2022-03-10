@@ -31,15 +31,15 @@ function loadApp(){
   }else{
     modal({
       title:'Welcome to Web 3.0!',
-      left:'Dogs',
-      close:'Cats',
+      left:'travel',
+      close:'Food',
       leftClick:function(){
         userData.type = 'food';
         state('w2w3','user',JSON.stringify(userData));
         addPref('food');
       },
       click:function(){
-        userData.type = 'fashion';
+        userData.type = 'travel';
         state('w2w3','user',JSON.stringify(userData));
         addPref('food');
       },
@@ -164,7 +164,7 @@ let appData = {
         "username":'cryptog0',
         "token":'0x18D9HAqvtRmrsFNxoycrKFuUJQvit2GDg3',
         "user_image":'https://lh3.googleusercontent.com/NhcYLLLfJX1dnLCWoFwFmeQYZJgFWJkLNJQ9Q6EkuzpzcOlKThaXpXnln_1DMl8dv72-ZrwEf3dS-tnDrbt4hUyO=w600',
-        "image":"https://images.pexels.com/photos/3385375/pexels-photo-3385375.jpeg",
+        "image":"https://images.unsplash.com/photo-1498603273107-62080b9e4963?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=660&q=80",
         "type":"food"
       },
       {
@@ -172,7 +172,7 @@ let appData = {
         "username":'web3l33t',
         "token":'0x1DNfj7DVhKRmjzpk6H4ZMz8QGSSjznLKpk',
         "user_image":'https://lh3.googleusercontent.com/ywBjLWVkykCWsNiHLc9NQPi5ZcijhjGgb9j4N_t5rGnNYeYLrCyNq9ohi4Hwkz4rhe4tmbqU0DbS_VA7PFpXglRchdK5gUwXVP2qQto=w600',
-        "image":"https://images.pexels.com/photos/3385375/pexels-photo-3385375.jpeg",
+        "image":"https://images.unsplash.com/photo-1611888474857-3d559f0163be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
         "type":"food"
       },
       {
@@ -180,15 +180,15 @@ let appData = {
         "username":'cryptog0',
         "token":'0x14fFJ5s3GSgZMS8354hjfd034-05uBzd4',
         "user_image":'https://lh3.googleusercontent.com/NhcYLLLfJX1dnLCWoFwFmeQYZJgFWJkLNJQ9Q6EkuzpzcOlKThaXpXnln_1DMl8dv72-ZrwEf3dS-tnDrbt4hUyO=w600',
-        "image":"https://images.pexels.com/photos/3385375/pexels-photo-3385375.jpeg",
-        "type":"fashion"
+        "image":"https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "type":"travel"
       },
       {
         "post_id":4,
         "username":'ghuntley.eth',
         "token":'0x1ECvdYeeYzJs5xtacj9WXysLkEA4sGBz1P',
         "user_image":'https://lh3.googleusercontent.com/bWGjFGF-DoYU9PymH9DcfCiC9dlm7vjlQvxLhtPlVzsnbj5WuBIjtukL7kBuJnbxMeqNYMy-8Y1NEcbgFiuWXLwUk2kXND8oLbaw=s992',
-        "image":"https://images.pexels.com/photos/3385375/pexels-photo-3385375.jpeg",
+        "image":"https://images.unsplash.com/photo-1481671703460-040cb8a2d909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
         "type":"food"
       },
       {
@@ -196,31 +196,31 @@ let appData = {
         "username":'web3l33t',
         "token":'0x12AexRv6Cqxc2Nup938jnYRw8gpQHaMcvx',
         "user_image":'https://lh3.googleusercontent.com/ywBjLWVkykCWsNiHLc9NQPi5ZcijhjGgb9j4N_t5rGnNYeYLrCyNq9ohi4Hwkz4rhe4tmbqU0DbS_VA7PFpXglRchdK5gUwXVP2qQto=w600',
-        "image":"https://images.pexels.com/photos/3385375/pexels-photo-3385375.jpeg",
-        "type":"fashion"
+        "image":"https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+        "type":"travel"
       },
       {
         "post_id":6,
         "username":'ghuntley.eth',
         "token":'0x16T2WNirV5g8eQ83ZJiQb7e8tTaEmzBcJo',
         "user_image":'https://lh3.googleusercontent.com/bWGjFGF-DoYU9PymH9DcfCiC9dlm7vjlQvxLhtPlVzsnbj5WuBIjtukL7kBuJnbxMeqNYMy-8Y1NEcbgFiuWXLwUk2kXND8oLbaw=s992',
-        "image":"https://images.pexels.com/photos/3385375/pexels-photo-3385375.jpeg",
-        "type":"fashion"
+        "image":"https://images.unsplash.com/photo-1571497569639-7bd0fcd36c64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "type":"travel"
       },
       {
         "post_id":7,
         "username":'dogeBRO',
         "token":'0x1AtwxK6mVhaRtTD11m2pDJDwSE3Yfxyn7e',
         "user_image":'https://lh3.googleusercontent.com/8n1qnBJDw4jL7Mntn4d0wCML5t53kfIOD-CaK5guW1cFJ89_w6fezvudp4OcRRTnvIPGMArWE52xQX0iJQp_ZOKnSE5ftIUCIkap5sU=w600',
-        "image":"https://images.pexels.com/photos/3385375/pexels-photo-3385375.jpeg",
-        "type":"fashion"
+        "image":"https://images.unsplash.com/photo-1631677757514-f82ec5ee2b7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+        "type":"travel"
       },
       {
         "post_id":8,
         "username":'dogeBRO',
         "token":'0x1Da57SaLn8BNXrcWy9JLTYJL84c9HZh57y',
         "user_image":'https://lh3.googleusercontent.com/8n1qnBJDw4jL7Mntn4d0wCML5t53kfIOD-CaK5guW1cFJ89_w6fezvudp4OcRRTnvIPGMArWE52xQX0iJQp_ZOKnSE5ftIUCIkap5sU=w600',
-        "image":"https://images.pexels.com/photos/3385375/pexels-photo-3385375.jpeg",
+        "image":"https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
         "type":"food"
       },
       {
@@ -228,7 +228,7 @@ let appData = {
         "username":'2daM00n',
         "token":'0x1MvuLhbU9QBtDUgDqhsfJVnuDMTdkFTDAM',
         "user_image":'https://lh3.googleusercontent.com/LIA8Z_HWuyAGNipwTuuQDqHd3hdoimqOyQyUaQ9o1ZSRsDBI_h1nzcIVIi2pIaxnRYf2jvgkkPpOywi-thvPI84dnDGp2yzs0YAQpRM=w600',
-        "image":"https://images.pexels.com/photos/3385375/pexels-photo-3385375.jpeg",
+        "image":"https://images.unsplash.com/photo-1542326237-94b1c5a538d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
         "type":"food"
       },
       {
@@ -236,8 +236,8 @@ let appData = {
         "username":'2daM00n',
         "token":'0x1HRXrZ3mzfrtnSn2EETjNdoYUevB93VpKP',
         "user_image":'https://lh3.googleusercontent.com/LIA8Z_HWuyAGNipwTuuQDqHd3hdoimqOyQyUaQ9o1ZSRsDBI_h1nzcIVIi2pIaxnRYf2jvgkkPpOywi-thvPI84dnDGp2yzs0YAQpRM=w600',
-        "image":"https://images.pexels.com/photos/3385375/pexels-photo-3385375.jpeg",
-        "type":"fashion"
+        "image":"https://images.unsplash.com/photo-1553342385-111fd6bc6ab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+        "type":"travel"
       },
   ]
 };
