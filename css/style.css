@@ -140,6 +140,23 @@ a,a:hover,a:active,a:focus {
 .info i{
   position:absolute;
 }
+.tweet,.fb{
+  width:5rem;
+  height:5rem;
+  margin:auto;
+  border-radius:10px;
+}
+.tweet i,.fb i{
+  margin-top: 0.5rem;
+  font-size:4rem;
+  color:white!important;
+}
+.tweet{
+  background-color:#1da1f2;
+}
+.fb{
+  background-color:#3b5998;
+}
 @media (max-width:450px){
   .post .token{
       float:none;

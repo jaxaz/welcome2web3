@@ -103,9 +103,27 @@ function addImage(){
 function coinsOut(){
   modal({
     title:'Uh Oh!',
-    close:'Okay',
+    close:'<i class="bx bxs-share bx-flip-horizontal"></i> Share',
+    click:function(){share()},
     body:'<div class="text-center mt-3">Looks like your out of coin!</div><br>'+
           "<div class='text-center'>Don't worry! We accept any form of payment.</div>"
+  });
+}
+function share(x){
+  if(x){
+    let social = {
+      tweet:'https://twitter.com/intent/tweet?url=https%3A//welcome2web3.com&via=Welcome2Web3&related=Welcome2Web3,NFT,Crypto,Web3.0',
+      fb : 'https://www.facebook.com/dialog/share?app_id=292861509551442&href=https%3A//welcome2web3.com&display=popup'
+    };
+    window.location = social[x];
+    return;
+  }
+  modal({
+    title:'Share W2W3!',
+    body:'<div class="row text-center align-items-center">'+
+            '<div class="col-6"><a href="#" onclick="share(\'fb\')"><div class="fb"><i class="bx bxl-facebook"></i></div></a></div>'+
+            '<div class="col-6"><a href="#" onclick="share(\'tweet\')"><div class="tweet"><i class="bx bxl-twitter"></i></div></a></div>'+
+          "</div>"
   });
 }
 function addPref(type){
