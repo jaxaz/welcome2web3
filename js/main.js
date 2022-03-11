@@ -31,7 +31,7 @@ function loadApp(){
   }else{
     modal({
       title:'Welcome to Web 3.0!',
-      left:'travel',
+      left:'Travel',
       close:'Food',
       leftClick:function(){
         userData.type = 'food';
@@ -132,7 +132,8 @@ function addPref(type){
     title:'To the Chain!',
     close:'Okay',
     body:'<div class="text-center mt-3">The GAS to save your selection to the chain only costs $'+cost+"! </div><br>"+
-          "<div class='text-center'>You currently have $"+Math.round(appData.std*userData.coins*100)/100+" worth of coins left.</div>",
+          "<div class='text-center'>You currently have $"+Math.round(appData.std*userData.coins*100)/100+" worth of coins left.</div><br>"+
+          "<div class='text-center'>On Web 3.0 you pay GAS every time  you interact.</div>",
     click:function(){
       pay(cost);
       framework.goto('/?t='+type);
