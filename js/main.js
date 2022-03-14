@@ -147,7 +147,7 @@ function addPref(type){
     close:'Okay',
     body:
     
-      "<div class='text-center'>The Social Media application Welcome2Web3.com emulates works by emulating the Ethereum Blockchain. Every time you like or comment on an image, your action needs to be stored in a database somewhere. Normally, you don't have to pay to like or post because the Social Media companies pay for this. However, when using Web 3.0 you need to pay for your actions to be stored within the computers on the Ethereum Blockchain. The cost of storing information on the Blockchain is referred to as GAS and at the time of writting costs roughly $2 USD per 1kb of data. To put this into perspective, a high resolution photograph can be upwards of 4000kb, or $8,000.</div>" +
+      "<div class='text-center'>The Social Media application Welcome2Web3.com works by emulating the Ethereum Blockchain. Every time you like or comment on an image, your action needs to be stored in a database somewhere. Normally, you don't have to pay to like or post because the Social Media companies pay for this. However, when using Web 3.0 you need to pay for your actions to be stored within the computers on the Ethereum Blockchain. The cost of storing information on the Blockchain is referred to as GAS and at the time of writting costs roughly $2 USD per 1kb of data. To put this into perspective, a high resolution photograph can be upwards of 4000kb, or $8,000.</div>" +
       '<div class="text-center mt-3"><b>The transaction fees to save your selection to the blockchain were $'+cost+"!</b> </div><br>"+
       "<div class='text-center'>You currently have $"+Math.round(appData.std*userData.coins*100)/100+" worth of imaginary crypto coins left.</div><br>",
 
