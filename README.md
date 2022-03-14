@@ -13,7 +13,7 @@ Blockchain isn't new. It has been around for as long as the iPhone. Look how muc
 
 Web3 is blockchain, once again, rebranded.
 
-This hype of a new internet ([which is a false narrative](http://localhost:8000/#:~:text=which%20is%20a%20false%20narrative)) is driven by over a billion dollars of venture capital of investment by people who can only see dollars (for them). They want to replace the internet we have today with one where it costs money to share a photo with friends or post a comment.
+This hype of a new internet ([which is a false narrative](https://blog.dshr.org/2022/02/ee380-talk.html)) is driven by over a billion dollars of venture capital of investment by people who can only see dollars (for them). They want to replace the internet we have today with one where it costs money to share a photo with friends or post a comment.
 
 A internet with inequality baked in where you can only participate if you have money. We created this website so you can experience the 'future' (🤮) today...
 
