@@ -44,7 +44,7 @@ function loadApp(){
         addPref('food');
       },
       body:
-        "<div class='text-centre'>Over the last couple of months there has been a lot of hype about a new World Wide Web (<i><a href='https://web3isgoinggreat.com/'>Web3</i>) based on blockchains - a slow distributed, append only spreadsheet technology which is destroying the planet we live on.</div><br/>" +
+        "<div class='text-centre'>Over the last couple of months there has been a lot of hype about a new World Wide Web (<a href='https://web3isgoinggreat.com/'>Web3</a>) based on blockchains - a slow distributed, append only spreadsheet technology which is destroying the planet we live on.</div><br/>" +
         
         
         "<div class='text-centre'>Blockchain isn't new. It has been around for as long as the iPhone. Look how much the iPhone has changed the world. Blockchains one claim to fame in this period is the creation of <a href='https://www.fincen.gov/sites/default/files/shared/Financial%20Trend%20Analysis_Ransomeware%20508%20FINAL.pdf'>$5.2B/year ransomware industry</a>, societal damage in the form of <a href='https://www.stephendiehl.com/blog/casino-boats.html'>gambling</a> and the loss of <a href='https://www.onmanorama.com/news/kerala/2020/10/17/cyber-fraud--priceless-wedding-memories-get-lost-as-studios-fall.html'>irreplaceable photos</a>.</div><br/>" + 
@@ -109,7 +109,9 @@ function addImage(){
     title:'Uh Oh!',
     close:'Okay',
     body:'<h3 class="text-center mt-3"><b>The <a href="https://ethereum.stackexchange.com/questions/872/what-is-the-cost-to-store-1kb-10kb-100kb-worth-of-data-into-the-ethereum-block">transaction costs</a> to share an image is $'+kbCost(1000)+"! </b></h3><br>"+
-          "<div class='text-center'>Hmm, I guess that's why all those NFT projects are storing images using Web 2.0.</div>"
+          "<div class='text-center'>Hmm, I guess that's why all those NFT projects are storing images using Web 2.0.</div>" +
+
+          '<iframe width="100%" height="543" src="https://www.youtube.com/embed/i_VsgT5gfMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   });
 }
 function coinsOut(){
