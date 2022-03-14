@@ -31,8 +31,8 @@ function loadApp(){
   }else{
     modal({
       title:'Welcome to Web 3.0!',
-      left:'Travel',
-      close:'Food',
+      left:'No cookies',
+      close:'I consent to cookies',
       leftClick:function(){
         userData.type = 'food';
         state('w2w3','user',JSON.stringify(userData));
@@ -43,9 +43,21 @@ function loadApp(){
         state('w2w3','user',JSON.stringify(userData));
         addPref('food');
       },
-      body:"<div class='text-center'>We have gifted you <b style='color:#0095f6c7'>200</b> crypto coins to use!</div><br>"+
-            "<div class='text-center'>You are free to like, comment and post anonymously.</div><br>"+
-            "<div class='text-center'>Start by choosing what you'd like to see.</div>"
+      body:
+        "<div class='text-centre'>Over the last couple of months there has been a lot of hype about a new World Wide Web (<i><a href='https://web3isgoinggreat.com/'>Web3</i>) based on blockchains - a slow distributed, append only spreadsheet technology which is destroying the planet we live on.</div><br/>" +
+        
+        
+        "<div class='text-centre'>Blockchain isn't new. It has been around for as long as the iPhone. Look how much the iPhone has changed the world. Blockchains one claim to fame in this period is the creation of <a href='https://www.fincen.gov/sites/default/files/shared/Financial%20Trend%20Analysis_Ransomeware%20508%20FINAL.pdf'>$5.2B/year ransomware industry</a>, societal damage in the form of <a href='https://www.stephendiehl.com/blog/casino-boats.html'>gambling</a> and the loss of <a href='https://www.onmanorama.com/news/kerala/2020/10/17/cyber-fraud--priceless-wedding-memories-get-lost-as-studios-fall.html'>irreplaceable photos</a>.</div><br/>" + 
+
+        "<div class='text-centre'>Web3 is blockchain, once again, rebranded.</div><br/>" +
+
+        "<div class='text-centre'>This hype of a new internet (<a href='https://blog.dshr.org/2022/02/ee380-talk.html'>which is a false narrative</a>) is driven by over a billion dollars of venture capital of investment by people who can only see dollars (for them). They want to replace the internet we have today with one where it costs money to share a photo with friends or post a comment.</div><br/>" +
+        
+        "<div class='text-centre'>A internet with inequality baked in where you can only participate if you have money. We created this website so you can experience the 'future' (🤮) today...</div><br/>" +
+
+        "<div class='text-center'>You have been gifted <b style='color:#0095f6c7'>200</b> imaginary crypto coins to use on Welcome2Web3.com which will be consumed every time you like, comment or post.</div><br>" + 
+
+        "<div class='text-center'>We use cookies on this website to give you the best experience possible. May we have your consent to store cookies?</div><br>"
     });
   }
 }
