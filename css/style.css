@@ -14,7 +14,7 @@ body:after {
 }
 a,a:hover,a:active,a:focus {
     text-decoration: none;
-    color:#262626;
+    color:#0095f6c7;
 }
 #header-toggle.show {
   margin-left: 220px;
