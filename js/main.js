@@ -108,17 +108,16 @@ function addImage(){
   modal({
     title:'Uh Oh!',
     close:'Okay',
-    body:'<h3 class="text-center mt-3"><b>The GAS to post an image is $'+kbCost(1000)+"! </b></h3><br>"+
-          "<div class='text-center'>Hmm, we might have to store images using Web 2.0.</div>"
+    body:'<h3 class="text-center mt-3"><b>The <a href="https://ethereum.stackexchange.com/questions/872/what-is-the-cost-to-store-1kb-10kb-100kb-worth-of-data-into-the-ethereum-block">transaction costs</a> to share an image is $'+kbCost(1000)+"! </b></h3><br>"+
+          "<div class='text-center'>Hmm, I guess that's why all those NFT projects are storing images using Web 2.0.</div>"
   });
 }
 function coinsOut(){
   modal({
     title:'Uh Oh!',
-    close:'<i class="bx bxs-share bx-flip-horizontal"></i> Share',
+    close:'<i class="bx bxs-share bx-flip-horizontal"></i>Share Welcome2Web3.com with your friends on real actual social media to get more coins.',
     click:function(){share()},
-    body:'<div class="text-center mt-3">Looks like your out of coin!</div><br>'+
-          "<div class='text-center'>Don't worry! We accept any form of payment.</div>"
+    body:"<div class='text-center mt-3'>Looks like you have run out of imaginary crypto coins. I guess that means you won't be able to participate on the internet until your next payday. Sucks to be you!</div><br>"    
   });
 }
 function share(x){
@@ -128,6 +127,7 @@ function share(x){
       fb : 'https://www.facebook.com/dialog/share?app_id=292861509551442&href=https%3A//welcome2web3.com&display=popup'
     };
     window.location = social[x];
+
     return;
   }
   modal({
@@ -141,11 +141,14 @@ function share(x){
 function addPref(type){
   let cost = kbCost(1);
   modal({
-    title:'To the Chain!',
+    title:'Updating the blockchain...',
     close:'Okay',
-    body:'<div class="text-center mt-3">The GAS to save your selection to the chain only costs $'+cost+"! </div><br>"+
-          "<div class='text-center'>You currently have $"+Math.round(appData.std*userData.coins*100)/100+" worth of coins left.</div><br>"+
-          "<div class='text-center'>On Web 3.0 you pay GAS every time  you interact.</div>",
+    body:
+    
+      "<div class='text-center'>The Social Media application Welcome2Web3.com emulates works by emulating the Ethereum Blockchain. Every time you like or comment on an image, your action needs to be stored in a database somewhere. Normally, you don't have to pay to like or post because the Social Media companies pay for this. However, when using Web 3.0 you need to pay for your actions to be stored within the computers on the Ethereum Blockchain. The cost of storing information on the Blockchain is referred to as GAS and at the time of writting costs roughly $2 USD per 1kb of data. To put this into perspective, a high resolution photograph can be upwards of 4000kb, or $8,000.</div>" +
+      '<div class="text-center mt-3"><b>The transaction fees to save your selection to the blockchain were $'+cost+"!</b> </div><br>"+
+      "<div class='text-center'>You currently have $"+Math.round(appData.std*userData.coins*100)/100+" worth of imaginary crypto coins left.</div><br>",
+
     click:function(){
       pay(cost);
       framework.goto('/?t='+type);
