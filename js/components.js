@@ -213,7 +213,7 @@ function Post(params){
 			close:'Post!',
 			body:'<div class="text-center mt-3">The GAS to comment on this post is only $'+cost+"! </div><br>"+
 						"<div class='text-center'>You currently have $"+Math.round(appData.std*userData.coins)+" worth of coins left.</div><br>"+
-						"<div class='text-center'>On Web 3.0 there is a public record of all your comments.</div>",
+						"<div class='text-center'>On Web 3.0 there is a public record of all your comments and there is no way to delete them once posted. Have you considered the <a href='https://blog.mollywhite.net/abuse-and-harassment-on-the-blockchain/'>abuse implications of this technical design choice</a>?</div>",
 			click:function(){
 				pay(cost);
 			}
@@ -302,8 +302,8 @@ function Heart(post_id){
 				close:'Like!',
 				body:'<div class="text-center mt-3">The GAS to like this post is only $'+cost+"! </div><br>"+
 							"<div class='text-center'>You currently have $"+Math.round(appData.std*userData.coins*100)/100+" worth of coins left.</div><br>"+
-							"<div class='text-center'>On Web 3.0 there is a public record of all your likes.</div>",
-				click:function(){
+							"<div class='text-center'>On Web 3.0 there is a public record of all your likes and there is no way to delete them once posted. Have you considered the <a href='https://blog.mollywhite.net/abuse-and-harassment-on-the-blockchain/'>abuse implications of this technical design choice</a>?</div>",
+							click:function(){
 					userData.likes.push(post_id);
 					pay(cost);
 				}
