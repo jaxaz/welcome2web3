@@ -125,7 +125,7 @@ function coinsOut(){
 function share(x){
   if(x){
     let social = {
-      tweet:'https://twitter.com/intent/tweet?url=https%3A//welcome2web3.com&via=Welcome2Web3&related=Welcome2Web3,NFT,Crypto,Web3.0',
+      tweet:'https://twitter.com/intent/tweet?url=https%3A//welcome2web3.com&via=GeoffreyHuntley3&related=Welcome2Web3,NFT,Crypto,Web3.0',
       fb : 'https://www.facebook.com/dialog/share?app_id=292861509551442&href=https%3A//welcome2web3.com&display=popup'
     };
     window.location = social[x];
