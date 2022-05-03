@@ -153,7 +153,7 @@ function addPref(type){
       "<div class='text-center'>Every time you like or comment on an image, your action needs to be stored in a database somewhere.</div><br>"+
       "<div class='text-center'>Normally this is free, but using Web3 you will need to pay a fee to store it on the blockchain.</div><br>"+
       "<div class='text-center'>The fee is referred to as GAS and costs around $2 USD for a small message.</div><br>"+
-      '<div class="text-center mt-3"><b>The transaction fees to save your Cookie selection to the blockchain were $'+cost+"!</b> </div><br>",
+      '<div class="text-center"><b>The transaction fees to save your Cookie selection to the blockchain were $'+cost+"!</b> </div><br>",
 
     click:function(){
       pay(cost);
