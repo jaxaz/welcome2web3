@@ -44,6 +44,15 @@ function loadApp(){
         addPref('food');
       },
       body:
+        "<div class='text-center'>Welcome2Web3 is a sneak peak at what social media looks like on Web3.</div><br>" + 
+
+        "<div class='text-center'>You have been gifted <b style='color:#0095f6c7'>200</b> imaginary crypto coins to use on Welcome2Web3.com which will be consumed every time you like, comment or post.</div><br>" + 
+
+        "<div class='text-center'>We use cookies on this website to give you the best experience possible. May we have your consent to store cookies?</div><br>"
+    });
+  }
+}
+/*
         "<div class='text-centre'>Over the last couple of months there has been a lot of hype about a new World Wide Web (<a href='https://web3isgoinggreat.com/'>Web3</a>) based on blockchains - a slow distributed, append only spreadsheet technology which is destroying the planet we live on.</div><br/>" +
         
         
@@ -55,12 +64,7 @@ function loadApp(){
         
         "<div class='text-centre'>A internet with inequality baked in where you can only participate if you have money. We created this website so you can experience the 'future' (🤮) today...</div><br/>" +
 
-        "<div class='text-center'>You have been gifted <b style='color:#0095f6c7'>200</b> imaginary crypto coins to use on Welcome2Web3.com which will be consumed every time you like, comment or post.</div><br>" + 
-
-        "<div class='text-center'>We use cookies on this website to give you the best experience possible. May we have your consent to store cookies?</div><br>"
-    });
-  }
-}
+*/
 function modal(options){
   let m = document.getElementById("modal");
   find(m,'.modal-title',true).innerHTML = options.title;
