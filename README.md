@@ -46,7 +46,7 @@ See also https://twitter.com/GeoffreyHuntley/status/1501365725180882944 for the 
 
 
 
-## Words from the anonymous lecturer
+## Words from the developer of W2W3
 
 
 ### Why?
